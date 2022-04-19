@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity {
                 if(count==100){
                     return null;
                 }
-                count += 10;
+                count++;
                 publishProgress(count);
                 try {
-                    Thread.sleep(6000);
+                    Thread.sleep(600);
                 }catch (InterruptedException e){
                     e.printStackTrace();
                 }
